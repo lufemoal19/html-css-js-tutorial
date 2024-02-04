@@ -14,7 +14,7 @@ Welcome to the Music Festival Learning Project! This project serves as a hands-o
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/music-festival-learning-project.git
+   git clone https://github.com/lufemoal19/webDevelopmentVanilla.git
    ```
 
 2. **Open in Browser:**
