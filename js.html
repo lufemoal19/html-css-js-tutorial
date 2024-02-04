@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+
+        <a href="index.html">
+            <h1 class="titulo">HTML CSS JS <span>Tutorial</span></h1> <!--span tag-->
+        </a>
+
+        <div class="nav-bg">
+            <nav class="navegacion-principal contenedor">
+                <a href="cheatSheet.html">Cheat Sheet</a>
+                <a href="animaciones.html">CSS</a>
+                <a href="js.html">JavaScript</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        
+        <div class="image">
+            <img class="js__img contenido-centrado" src="src/img/js.png" alt="">
+        </div>
+
+    </main>
+
+    <section>
+        <h2>JavaScript</h2>
+
+        <button class="boton" data-page="page1">TO-DO List</button>
+        <button class="boton" data-page="page2">Color Change</button>
+        <button class="boton" data-page="page3">Validar Formulario</button>
+    
+        <div id="page1" class="seccion-div">
+            <h3>Tasks</h3>
+            <ul id="tasks">
+            </ul>
+            <form action="">
+                <input id="task" placeholder="New Task" type="text" class="task__list">
+                <input id="submit" type="submit" value="Send" class="boton">
+            </form>
+        </div>
+        <div id="page2" class="seccion-div">
+            <p id="hello">
+                JavaScript es un lenguaje de programación interpretado, 
+                dialecto del estándar ECMAScript.<br> Se define como orientado 
+                a objetos, ​ basado en prototipos, imperativo, débilmente tipado 
+                y dinámico.
+            </p>
+            <!-- <button data-color="red">Red</button>
+            <button data-color="blue">Blue</button>
+            <button data-color="green">Green</button> -->
+
+            <select name="" id="" class="boton">
+                <option value="black">Black</option>
+                <option value="red">Red</option>
+                <option value="blue">Blue</option>
+                <option value="green">Green</option>
+                <option value="yellow">Yellow</option>
+                <option value="purple">Purple</option>
+                <option value="orange">Orange</option>
+
+            </select>
+        </div>
+        <div id="page3" class="seccion-div form__seccion">
+            <h3 class="centrar-texto">Contacto</h3>
+            <form action="" class="formulario">
+                <div class="campo">
+                    <label class="campo__label" for="nombre">Nombre</label>
+                    <input  class="campo__field" type="text" placeholder="Nombre" id="nombre">
+                </div>
+                <div class="campo">
+                    <label class="campo__label" for="email">E-mail</label>
+                    <input class="campo__field"  type="email" placeholder="E-mail" id="email">
+                </div>
+                <div class="campo">
+                    <label class="campo__label" for="mensaje">Mensaje</label>
+                    <textarea class="campo__field campo__field--text-area" id="mensaje"></textarea>
+                </div>
+                <div class="campo">
+                    <input type="submit" value="Enviar" class="boton boton--primario">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer nav-bg">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion-principal contenedor">
+                <a href="cheatSheet.html">Cheat Sheet</a>
+                <a href="animaciones.html">CSS</a>
+                <a href="js.html">JavaScript</a>
+            </nav>
+        </div>
+        <p class="copyright">Todos los Derechos Reservados 2022 &copy;</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>
